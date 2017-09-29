@@ -1,0 +1,52 @@
+body {
+  margin-bottom: 20vh;
+}
+
+h1 {
+  margin:10px auto;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+h2 {
+  margin: 10px 0;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width:10%;
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background: salmon;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer {
+  position: fixed;
+  left:0;
+  bottom:0;
+  width:100%;
+  background: lightblue;
+  padding:5px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
