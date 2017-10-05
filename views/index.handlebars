@@ -9,8 +9,7 @@
         {{#unless this.devoured}}
           <div class="col-sm-5">
             <li>
-              {{this.burger_name}}
-
+              {{this.name}}
               <form action="/{{this.id}}?_method=PUT" method="POST">
                 <input type="hidden" name="devoured" value="true">
                 <button type="submit">DEVOUR!</button>
@@ -33,7 +32,7 @@
         {{#if this.devoured}}
           <div class="col-sm-5">
             <li>
-              {{this.burger_name}}
+              {{this.name}}
               <form action="/{{this.id}}?_method=DELETE" method="POST">
                 <button type="submit">DELETE!</button>
               </form>

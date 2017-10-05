@@ -1,9 +1,4 @@
-CREATE TABLE burgers (
-
-  id INT AUTO_INCREMENT NOT NULL,
-  burger_name VARCHAR(128) NOT NULL,
-  devoured BOOLEAN NOT NULL,
-  createdAt TIMESTAMP NOT NULL,
-  PRIMARY KEY(id)
-
-);
+-- Drops the todolist if it exists currently --
+DROP DATABASE IF EXISTS burgers_db;
+-- Creates the "todolist" database --
+CREATE DATABASE burgers_db;

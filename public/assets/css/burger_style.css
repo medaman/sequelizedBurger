@@ -29,6 +29,19 @@ ul {
   list-style-type: none;
 }
 
+#customer {
+  width:100%;
+}
+
+.customer {
+  position: fixed;
+  left:0;
+  top:0;
+  background: lightblue;
+  padding:5px;
+  font-size: 12px;
+}
+
 .footer {
   position: fixed;
   left:0;
